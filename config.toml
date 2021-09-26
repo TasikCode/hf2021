@@ -1,0 +1,4 @@
+baseURL = 'https://hf2021.tasikcode.xyz/'
+languageCode = 'en-us'
+title = 'Tasikcode X Hacktoberfest 2021'
+theme = 'PaperMod'
