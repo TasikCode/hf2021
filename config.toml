@@ -1,6 +1,5 @@
 baseURL = 'https://hf2021.tasikcode.xyz/'
 languageCode = 'en-us'
-title = 'Tasikcode X Hacktoberfest 2021'
 theme = 'PaperMod'
 paginate = 5
 enableRobotsTXT = true
@@ -33,12 +32,6 @@ hidemeta = false
 hideSummary = false
 showtoc = false
 tocopen = false
-
-
-  [params.label]
-  text = "Home"
-  icon = "/apple-touch-icon.png"
-  iconHeight = 35
 
   [params.homeInfoParams]
   Title = "Halo Tasikmalaya 👋"
@@ -91,9 +84,3 @@ identifier = "tags"
 name = "tags"
 url = "/tags/"
 weight = 20
-
-[[menu.main]]
-identifier = "tasikcode"
-name = "hf2021.tasikcode.xyz"
-url = "https://hf2021.tasikcode.xyz"
-weight = 30
