@@ -18,7 +18,7 @@ cover:
     relative: false # when using page bundles set this to true
     hidden: true # only hide on current single page
 editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/TasikCode/hf2021/tree/main/content/posts"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
@@ -30,3 +30,4 @@ Guide line acara ini sebetulnya sudah diatur oleh Digital Ocean sebagai penyelen
 Untuk berdiskusi langsung, silahkan join Discord Tasikcode dengan mengunjungi link di blog ini atau di website tasikcode.xyz.
 
 P.S : Ada yang aneh/salah dengan postingan ini? Ingin mengoreksi atau menambahkan? kunjungi repositori github.com/tasikcode untuk mengedit/menambahkan :)
+P.S : Ini barusan saya edit
