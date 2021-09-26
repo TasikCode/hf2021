@@ -36,7 +36,7 @@ tocopen = false
 
   [params.homeInfoParams]
   Title = "Halo Tasikmalaya 👋"
-  Content = "Mari kita ramaikan acara Hacktoberfest 2021 dengan berkontribusi di proyek open source Tasikcode"
+  Content = "Mari kita ramaikan acara Hacktoberfest 2021 dengan berkontribusi di proyek open source Tasikcode. Sedikit cerita, Hacktoberfest adalah event yang digagas oleh Digital Ocean sejak 8 Tahun lalu setiap bulan Oktober. Selama kurun waktu sebulan, kita diajak untuk berkontribusi dalam proyek-proyek opensource supaya lebih banyak lagi developer-developer yang bisa bergabung kedalam ekosistem sumber terbuka dunia. Untuk mengawali, kalian bisa search repositori hacktoberfest 2021 di Github/tasikcode dan mulai berkontribusi atau ikuti diskusinya dengan bergabung di Discord kita. Ikuti update event ini di postingan-postingan dari kawan-kawan baraya Tasikcode dibawah. Sampai ketemu disana. "
 
   [[params.socialIcons]]
   name = "twitter"
