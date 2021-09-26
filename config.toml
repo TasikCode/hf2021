@@ -2,3 +2,98 @@ baseURL = 'https://hf2021.tasikcode.xyz/'
 languageCode = 'en-us'
 title = 'Tasikcode X Hacktoberfest 2021'
 theme = 'PaperMod'
+paginate = 5
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+disableXML = true
+minifyOutput = true
+
+[params]
+env = "production"
+title = "Tasikcode Hacktoberfest 2021"
+description = "Tasikcode X Hacktoberfest 2021 is an online event for code enthusiast in Tasikmalaya, Indonesia"
+keywords = [ "Tasikcode", "Hacktoberfest", "2021", "Indonesia" ]
+author = "Tasikcode"
+DateFormat = "January 2, 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = false
+showtoc = false
+tocopen = false
+
+
+  [params.label]
+  text = "Home"
+  icon = "/apple-touch-icon.png"
+  iconHeight = 35
+
+  [params.homeInfoParams]
+  Title = "Halo Tasikmalaya 👋"
+  Content = "Mari kita ramaikan acara Hacktoberfest 2021 dengan berkontribusi di proyek open source Tasikcode"
+
+  [[params.socialIcons]]
+  name = "twitter"
+  url = "https://twitter.com/tasikcode"
+
+  [[params.socialIcons]]
+  name = "instagram"
+  url = "https://instagram.com/tasikcode"
+
+  [[params.socialIcons]]
+  name = "discord"
+  url = "https://discord.gg/Qbx5pRSH"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/tasikcode"
+
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  [params.editPost]
+  URL = "https://github.com/<path_to_repo>/content"
+  Text = "Suggest Changes"
+  appendFilePath = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[[menu.main]]
+identifier = "categories"
+name = "categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "tasikcode"
+name = "hf2021.tasikcode.xyz"
+url = "https://hf2021.tasikcode.xyz"
+weight = 30
